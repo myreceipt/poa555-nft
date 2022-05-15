@@ -226,6 +226,7 @@ export default class Dapp extends React.Component<Props, State> {
               : null}
           </div>
           : null}
+        <div className="mint-widget"><p>CopyRight 2022 by <a href="https://555labs.id/" target="_blank">555Labs.ID</a></p></div>
       </>
     );
   }
