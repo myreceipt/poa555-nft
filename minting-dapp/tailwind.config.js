@@ -11,7 +11,7 @@ module.exports = {
       colors: {
         // General
         page: {
-          from_bg: colors.slate[100],
+          from_bg: colors.indigo[800],
           to_bg: colors.slate[200],
         },
         titles: colors.indigo[600],

@@ -9,11 +9,11 @@ const CollectionConfig: CollectionConfigInterface = {
   // The contract name can be updated using the following command:
   // yarn rename-contract NEW_CONTRACT_NAME
   // Please DO NOT change it manually!
-  contractName: 'PsychoZombie',
-  tokenName: 'Psycho Zombie',
-  tokenSymbol: 'PZ',
+  contractName: 'ButanBirdvers',
+  tokenName: 'Butan Birdvers',
+  tokenSymbol: 'BB',
   hiddenMetadataUri: 'ipfs://Qmf7xLZaWyXECrb2g3hhouSssaanBUbJUWi9BDJ5eoXQVN/sik-ndelik.json',
-  maxSupply: 666,
+  maxSupply: 1111,
   whitelistSale: {
     price: 0.00,
     maxMintAmountPerTx: 1,
@@ -26,8 +26,8 @@ const CollectionConfig: CollectionConfigInterface = {
     price: 2.00,
     maxMintAmountPerTx: 7,
   },
-  contractAddress: '0xA22b4F92D61df25202144e1Db286CF271943D78d',
-  marketplaceIdentifier: 'psychozombie',
+  contractAddress: '0x8907745322506664921600f299C4219142D31B37',
+  marketplaceIdentifier: 'butanbirdvers',
   marketplaceConfig: Marketplaces.openSea,
   whitelistAddresses,
 };
