@@ -9,25 +9,25 @@ const CollectionConfig: CollectionConfigInterface = {
   // The contract name can be updated using the following command:
   // yarn rename-contract NEW_CONTRACT_NAME
   // Please DO NOT change it manually!
-  contractName: 'PrinceOfAbyss',
-  tokenName: 'Prince Of Abyss',
-  tokenSymbol: 'POA',
+  contractName: 'PsychoZombie',
+  tokenName: 'Psycho Zombie',
+  tokenSymbol: 'PZ',
   hiddenMetadataUri: 'ipfs://Qmf7xLZaWyXECrb2g3hhouSssaanBUbJUWi9BDJ5eoXQVN/sik-ndelik.json',
-  maxSupply: 1111,
+  maxSupply: 666,
   whitelistSale: {
     price: 0.00,
     maxMintAmountPerTx: 1,
   },
   preSale: {
-    price: 3.00,
+    price: 2.00,
     maxMintAmountPerTx: 4,
   },
   publicSale: {
-    price: 3.00,
+    price: 2.00,
     maxMintAmountPerTx: 7,
   },
-  contractAddress: '0x6E463e233882c1B26a6148dC030269ef11A5C742',
-  marketplaceIdentifier: 'princeofabyss',
+  contractAddress: '0xA22b4F92D61df25202144e1Db286CF271943D78d',
+  marketplaceIdentifier: 'psychozombie',
   marketplaceConfig: Marketplaces.openSea,
   whitelistAddresses,
 };
