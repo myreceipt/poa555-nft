@@ -170,10 +170,10 @@ contract ButanBirdvers is ERC721A, Ownable, ReentrancyGuard {
   }
 
   function withdraw() public onlyOwner nonReentrant {
-    (bool pns, ) = payable(0x3F1DF3B240Eb57460d66c75254E62E6615101a9C).call{value: address(this).balance * 8253 / 10000}('');
-    require(pns);
-    (bool labs, ) = payable(owner()).call{value: address(this).balance}('');
-    require(labs);
+    // (bool pns, ) = payable(UHUI_SPONTAN!!!).call{value: address(this).balance * 8253 / 10000}('');
+    // require(pns);
+    (bool ali, ) = payable(owner()).call{value: address(this).balance}('');
+    require(ali);
   }
 
   function _baseURI() internal view virtual override returns (string memory) {
